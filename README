@@ -1,3 +1,11 @@
+Arduino Library to access WiiRemote
+
+== Credits ==
+
+This library was originally written by Tomo Tanaka. See the original readme file below for usage instructions
+
+== Original Read me file ==
+
 This is Arduino library for WiiRemote Bluetooth stack which supports minimum HCI and L2CAP layer for HID profile.
 
 == First of all ==
@@ -32,14 +40,6 @@ You should have received a copy of the GNU General Public License along with thi
         +- WiiRemote.h
         +- WiiRemote.cpp
         +- keywords.txt
-        |
-        +- Max3421e_constants.h // written by Oleg
-        +- Max3421e.h           // written by Oleg
-        +- Max3421e.cpp         // written by Oleg
-        +- ch9.h                // written by Oleg
-        +- Usb.h                // written by Oleg
-        +- Usb.cpp              // written by Oleg
-        |
         +- examples/
             +- SteeringWii/
                 +- SteeringWii.pde
@@ -111,7 +111,7 @@ to match descriptors of USB Bluetooth Device to be used.
 
 === Member Variables ===
     * Report_t Report
-
+        Contains the accelerometer readings
 
 == Hint ==
 Hints from PS3 and Wiimote game controllers thread in Circuit@Home.
